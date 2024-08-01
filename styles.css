@@ -26,9 +26,7 @@ h3 {font-family: 'Lora';
     font-variant: normal; 
     line-height: 15.4px; 
     font-size: 1.25rem;
-    text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 1px;
 } 
 h4 {font-family: 'Lora';
     font-size: 1.25em;
@@ -472,7 +470,7 @@ footer .location .location-schedule{
 
 
 /* Schedule */
-.middle-section-flex.schedule{
+.middle-section-flex.schedule, .middle-section-flex.join{
     background-color: #FCFCFC;
     justify-content: space-between;
     margin-top: 0;
@@ -484,11 +482,16 @@ footer .location .location-schedule{
     max-width: 700px;
     width: 100%;
 }
+.join{
+    width: 587px;
+    line-height: 24px;
+}
 .schedule h2{
     margin: 0 0 10% 0;
 }
 .schedule h3{
     margin: 0 0 8% 0;
+    text-transform: uppercase;
 }
 .schedule p{
     line-height: 27px;
@@ -496,5 +499,23 @@ footer .location .location-schedule{
 }
 .schedule-kendo{
     margin: 18% 0 0 0;
+}
+.spacer-36{
+    height: 36px;
+}
+.spacer-32{
+    height: 32px;
+}
+
+.club-fee{
+    margin: 1.5rem 0 0 1.4rem 
+}
+.section-join .price{
+    font-size: 1.875rem;
+}
+.divider{
+    height: 2px;
+    border-bottom: 1px solid #DCDCDC;
+    max-width: 317px;
 }
 /* Schedule ENDS*/

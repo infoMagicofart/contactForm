@@ -396,12 +396,18 @@ footer .location .map{
 footer .location .location-address{
     width: 30%;
     max-width: 300px;
+    color: #475159;
 }
 footer .location .location-schedule{
     width: 30%;
     max-width: 300px;
     margin-right:4%;
+    color: #475159;
 }
+footer .location h4{
+    color: #000000;
+}
+
 .location-address {
     margin: 0 0 3rem 0;
     line-height: 22px;

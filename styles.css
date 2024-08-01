@@ -22,11 +22,13 @@ h2 {font-family: 'Lora';
     letter-spacing: 0px;
 } 
 h3 {font-family: 'Lora'; 
-    font-size: 14px; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 400; 
     line-height: 15.4px; 
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
 } 
 h4 {font-family: 'Lora';
     font-size: 1.25em;
@@ -474,5 +476,17 @@ footer .location .location-schedule{
     max-width: 700px;
     width: 100%;
 }
+.schedule h2{
+    margin: 0 0 10% 0;
+}
+.schedule h3{
+    margin: 0 0 8% 0;
+}
+.schedule p{
+    line-height: 27px;
 
+}
+.schedule-kendo{
+    margin: 18% 0 0 0;
+}
 /* Schedule ENDS*/

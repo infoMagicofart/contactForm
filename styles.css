@@ -244,12 +244,17 @@ header nav .wrapper li{
 .bottom-line{
     height: 120px;
     background-color: #052638;
+    color: #fff;
 }
 .contact-form{
     margin: 0 5% 0 0;
     display: block;
 }
-
+.bottom-line .copyright{
+    max-width: 1440px; 
+    margin: auto;
+    padding: 3rem 0 0 5%;
+}
 
 /*CONTACT FORM*/
 #fs-frm input,

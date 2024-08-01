@@ -475,6 +475,9 @@ footer .location .location-schedule{
 .middle-section-flex.schedule{
     background-color: #FCFCFC;
     justify-content: space-between;
+    margin-top: 0;
+    padding-bottom: 0px;
+    padding-top: 3%;
 }
 .section-image img{
     mix-blend-mode: multiply;

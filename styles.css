@@ -182,7 +182,7 @@ header nav .wrapper li{
     width: 100%;
 }
 .container-fluid{
-    margin-top: 1%;
+    margin-top: 0;
     padding: 0;
 }
 .transparency {
@@ -214,7 +214,7 @@ header nav .wrapper li{
 .middle-section-flex{
     background-color: #fff;
     display: flex;
-    margin: 4% 0;
+    margin: 4% 0 0 0;
     padding: 5% 0 7% 5%;
 }
 .section-about{
@@ -373,6 +373,9 @@ header nav .wrapper li{
     display: flex;
     align-items: center;
 }
+.socials h3{
+    margin: 2rem 0;
+}
 .socials a{
     margin: auto 0.1rem auto 2rem;
 }
@@ -400,11 +403,11 @@ footer .location .location-schedule{
     margin-right:4%;
 }
 .location-address {
-    margin: 0 0 12% 0;
+    margin: 0 0 3rem 0;
     line-height: 22px;
 }
 .location-schedule {
-    margin: 0 0 12% 0;
+    margin: 0 0 3rem 0;
     line-height: 22px;
 }
 .sponsors-list .block-item img{
@@ -470,19 +473,25 @@ footer .location .location-schedule{
 
 
 /* Schedule */
-.middle-section-flex.schedule, .middle-section-flex.join{
-    background-color: #FCFCFC;
+.middle-section-flex.schedule{
+    background-color: #fff;
     justify-content: space-between;
     margin-top: 0;
     padding-bottom: 0px;
     padding-top: 3%;
+}
+.middle-section-flex.join {
+    background-color: #fff;
+    padding-top: 0px;
+    justify-content: space-between;
+    margin-top: 0;
 }
 .section-image img{
     mix-blend-mode: multiply;
     max-width: 700px;
     width: 100%;
 }
-.join{
+.stretched-w60{
     width: 587px;
     line-height: 24px;
 }
@@ -506,6 +515,13 @@ footer .location .location-schedule{
 .spacer-32{
     height: 32px;
 }
+.spacer-24{
+    height: 24px;
+}
+.spacer-8{
+    height: 8px;
+}
+
 
 .club-fee{
     margin: 1.5rem 0 0 1.4rem 
@@ -514,8 +530,41 @@ footer .location .location-schedule{
     font-size: 1.875rem;
 }
 .divider{
-    height: 2px;
+    height: 1px;
     border-bottom: 1px solid #DCDCDC;
     max-width: 317px;
+}
+.divider-fullwidth{
+    height: 1px;
+    border-bottom: 1px solid #DCDCDC;
+    width: 100%;
+
+}
+.join a{
+    color: #003B6D;
+}
+.stretched-w60 a img{
+    margin: 0px 0.5rem 0 0;
+    display: block;
+    float: left;
+}
+.section-discount{
+    padding: 1.5rem 3rem;
+    background-color: #FCFCFC;
+    text-align: center;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #DCDCDC;
+}
+.subtext{
+    font-size: 0.85rem;
+    line-height: 18px;
+}
+.subtext h5{
+    margin: 1rem 0 0 0;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.subtext ol{
+    margin: 0 0 0 1rem;
 }
 /* Schedule ENDS*/

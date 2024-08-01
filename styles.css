@@ -99,8 +99,12 @@ header nav .nav-left-side a span.logo-lg img{
     width: 100%;
     margin: auto 0 auto 50%;
 }
-
-
+.active a {
+    background-color: #003B6D;
+}
+header nav .display-flex li.active  > a{
+    color:#fff;
+}
 /*hamburger menu*/
 header nav .top-bar-flex{
     display: flex;
@@ -457,3 +461,18 @@ footer .location .location-schedule{
     text-align: center;
     
 }
+
+
+
+/* Schedule */
+.middle-section-flex.schedule{
+    background-color: #FCFCFC;
+    justify-content: space-between;
+}
+.section-image img{
+    mix-blend-mode: multiply;
+    max-width: 700px;
+    width: 100%;
+}
+
+/* Schedule ENDS*/

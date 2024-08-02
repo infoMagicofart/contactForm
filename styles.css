@@ -214,8 +214,8 @@ header nav .wrapper li{
 .middle-section-flex{
     background-color: #fff;
     display: flex;
-    margin: 4% 0 0 0;
-    padding: 5% 0 7% 5%;
+    margin: 0;
+    padding: 3rem 0 7% 5%;
 }
 .section-about{
     max-width: 45%;
@@ -485,15 +485,11 @@ footer .location h4{
 .middle-section-flex.schedule{
     background-color: #fff;
     justify-content: space-between;
-    margin-top: 0;
     padding-bottom: 0px;
-    padding-top: 3%;
 }
 .middle-section-flex.join {
     background-color: #fff;
-    padding-top: 0px;
     justify-content: space-between;
-    margin-top: 0;
 }
 .section-image img{
     mix-blend-mode: multiply;
@@ -504,12 +500,16 @@ footer .location h4{
     max-width: 587px;
     line-height: 24px;
 }
+.stretched-w70{
+    max-width: 70%;
+    line-height: 24px;
+}
+
 .schedule h2{
     margin: 0 0 2.5rem 0;
 }
 .schedule h3{
-    margin: 3rem 0 0 0;
-    text-transform: uppercase;
+    margin: 3rem 0 1rem 0;
 }
 .schedule p{
     line-height: 27px;
@@ -526,11 +526,12 @@ footer .location h4{
 .spacer-24{
     height: 24px;
 }
+.spacer-16{
+    height: 16px;
+}
 .spacer-8{
     height: 8px;
 }
-
-
 .club-fee{
     margin: 1.5rem 0 0 1.4rem 
 }
@@ -576,3 +577,59 @@ footer .location h4{
     margin: 0 0 0 1rem;
 }
 /* Schedule ENDS*/
+
+/* FAQS */
+.middle-section-flex .header{
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+}
+.section-faqs .subtext{
+    margin: 1rem 0;
+}
+.section-faqs a{
+    color: #003B6D;
+}
+.section-faqs h3{
+    line-height: 24px;
+    margin: 0 0 1rem 0;
+}
+.section-faqs div{
+    margin: 0 1rem 1rem 0;
+}
+.section-faqs ul, li{
+    list-style: none;
+}
+.section-faqs ul{
+    margin: 2rem;
+}
+.section-faqs li{
+    margin: 1rem 0 0 0;
+}
+.accordion{
+    max-width: 1028px;
+}
+.section-faqs ol, li{
+    list-style-type: decimal;
+}
+.section-faqs ol{
+    margin: 2rem 0 2rem 1.5rem
+}
+
+
+@media (max-width: 768px) {
+    .section-faqs ul{
+        margin: 1rem 0 0 1rem;
+    }
+    .section-faqs li {
+        margin: 1rem 0 0 0;
+    }
+    .stretched-w70{
+        max-width: 90%;
+    }
+}
+@media (max-width: 425px) {
+    .section-faqs ul{
+        /* margin: 2rem 0 0 2rem; */
+    }
+}
+/* FAQS END*/

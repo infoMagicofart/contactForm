@@ -633,3 +633,25 @@ footer .location h4{
     }
 }
 /* FAQS END*/
+
+/* Sensei list */
+.middle-section-flex.sensei{
+    display: block;
+}
+.section-sensei .header{
+    font-size: 1.25rem;
+}
+.section-sensei .details{
+    margin: 0;
+    line-height: 30px;
+}
+.section-sensei{
+    display: flex;
+    margin: 3rem 0 1rem 0;
+}
+.flex-wrap{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 0 0;
+}
+/* Sensei list END */
